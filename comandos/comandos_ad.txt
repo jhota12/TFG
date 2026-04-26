@@ -1,0 +1,4 @@
+Instalación de Active Directory desde Server Manager
+Promoción a controlador de dominio
+Configuración DNS integrada
+Creación de usuarios y OU
