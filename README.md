@@ -28,9 +28,15 @@ Proyecto de diseño e implementación de un sistema de copias de seguridad y rec
 Ubicación: scripts/backup.sh
 
 ## Ejecución manual
+bash scripts/backup.sh
+
+## Automatización
+El script se ejecuta mediante cron:
+
+```bash
+0 2 * * * /home/prometeo/backup.sh
 
 ## Entorno
-
 El proyecto se ha desarrollado en un entorno virtualizado utilizando VirtualBox, con:
 
 - Windows Server 2022 (Controlador de dominio)
