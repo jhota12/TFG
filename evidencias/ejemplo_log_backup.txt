@@ -1,0 +1,4 @@
+sending incremental file list
+datos.txt
+sent 200 bytes
+Backup finalizado correctamente
