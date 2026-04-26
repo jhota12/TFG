@@ -1,0 +1,11 @@
+# Crear RAID
+mdadm --create --verbose /dev/md0 --level=1 --raid-devices=2 /dev/sdb /dev/sdc
+
+# Ver estado
+cat /proc/mdstat
+
+# Formatear
+mkfs.ext4 /dev/md0
+
+# Montar
+mount /dev/md0 /backup
