@@ -1,2 +1,0 @@
-rclone config
-rclone copy /backup remote:backup
