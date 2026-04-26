@@ -1,3 +1,0 @@
-realm join technova.local
-kinit Administrator@TECHNOVA.LOCAL
-id Administrator@technova.local
