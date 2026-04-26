@@ -1,4 +1,0 @@
-Configuración de rclone:
-- Tipo: Google Drive
-- Nombre remoto: remote
-- Autenticación mediante navegador
